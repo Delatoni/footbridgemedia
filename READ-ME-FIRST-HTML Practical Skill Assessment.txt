@@ -1,0 +1,27 @@
+*************************************
+-- HTML Practical Skill Assessment --
+*************************************
+
+This folder contains...
+- "READ-ME-FIRST-HTML Practical Skill Assessment.txt" - the document you are reading with now
+- "practical_html" folder - the folder containing the base of code you will be modifying for this practical skill assessment
+- "new_assets" folder - the folder containing text and image files necessary to modify the "practical_html" folder content
+
+Please read the 7 basic modification tasks below. Make the changes on the "practical_html" folder.
+
+When you are done, change the folder name to "finished_practical_(YOUR-FIRST-NAME)", zip up that folder, and send that zip file back via email.
+
+
+1) Change the background color to #f6fff1
+
+2) Troubleshoot the code to fix the sidebar so that it goes back to where it should be (see screenshot "structure-screenshot.png" in "new_assets" folder as a guide )
+
+3) Using the text content from "new-section-text.txt" and the image "seasonal-lawn-maintenance.jpg" from "new_assets" folder - add the necessary html to include a section that looks like the "Weed Control" section. The code should be positioned just above the content "Why You Should Hire Us For Your Home Or Business Lawn Care Needs"
+
+4) Using the image "review-us-on-google-COOL-GREEN.png" from "new_assets" folder - Add this button in the sidebar between the buttons for "Online Promotions" and "See Our Experts In Action".
+
+5) Using the image "button-to-convert-to-html.png" from "new_assets" folder as a guideline for what the button should look like - please re-create the button in html and css. Add the new code button at the bottom of the sidebar.
+
+6) Add a menu item called "Photos" to the top-level of navigation on the menu. Please it in between "Reviews" and "Contact Us"
+
+7) Add a menu item called "Seasonal Lawn Maintenance" to the dropdown level of navigation, under the main menu item for "Lawn Services". Place it between "Aeration" and "Soil Testing".
