@@ -284,6 +284,42 @@ div[id^=wufoo] { width:100%; height:auto }
 #sidebar #connect a:hover { opacity:.5; filter:alpha(opacity=50) }
 #sidebar #connect img { padding-right:2%; padding-left:2%; height:auto; width:13% }
 .sidebar-button { clear:both; text-align:center; }
+.sidebar-button-large {
+    clear:both;
+    text-align:center;
+    display: block;
+    width: 90%;
+    max-width: 300px;
+    margin: 5px auto 10px auto;
+    padding: 8px 7px;
+    background-color: #00a508;
+
+    border-color: #07fd13;
+    border-style: solid;
+    border-width: 5px;
+
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+
+    -webkit-box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.5);
+}
+.sidebar-button-large p {
+    color: #000;
+    font-family: Impact,Haettenschweiler,Franklin Gothic Bold,Charcoal,Helvetica Inserat,Bitstream Vera Sans Bold,Arial Black,sans serif;
+    font-size: 39px;
+    line-height: 43px;
+}
+.sidebar-button-large p:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 98%;
+    padding-top: 1px;
+    border-bottom: solid 2px #000;
+}
 .sidebar-menu { -webkit-border-radius: 7px; border-radius: 7px; display:block; width:100%; margin-top:15px; margin-bottom:15px }
 .sidebar-menu h4 { margin:0; line-height:1em; font-size:16px; color:#FFF; background:#333; text-transform:uppercase; font-weight:400; padding:7px 2%; width:96% }
 .sidebar-menu .first-item { -webkit-border-radius: 0 7px 7px 0; border-radius: 0 7px 7px 0; -moz-background-clip:padding-box; -webkit-background-clip:padding-box; background-clip:padding-box }
